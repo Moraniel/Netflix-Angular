@@ -1,13 +1,24 @@
-*{
-    background-color: white;
+.div_slider{
+    margin-top: 50px;
+    margin-left: 50px;
 }
-/* .conteudo{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-} */
+
+h2{
+    color: white;
+    font-weight: bold;
+    padding-left: 1rem;
+}
 
 .conteudos_list button{
+    font-size: 70px;
+    display: flex;
+    opacity: 100%;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s
+}
+.conteudos_list i{
     align-items: center;
     opacity: 70%;
     font-size: 70px;
@@ -21,7 +32,6 @@
     border-radius: 10px;
     position: absolute;
 }
-
 
 .div_slider .conteudos_list{
     display: flex;
