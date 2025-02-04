@@ -1,0 +1,37 @@
+*{
+    background-color: white;
+}
+/* .conteudo{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+} */
+
+.conteudos_list button{
+    align-items: center;
+    opacity: 70%;
+    font-size: 70px;
+    width: 200px;
+    height: 12.3rem;
+    display: flex;
+    margin-left: 0.1rem;
+    color: white;
+    background-color: black;
+
+    border-radius: 10px;
+    position: absolute;
+}
+
+
+.div_slider .conteudos_list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.div_slider li{
+    margin: 5px;
+}
+.div_slider img{
+    border-radius: 10px;
+}

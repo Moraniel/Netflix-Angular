@@ -1,0 +1,61 @@
+.card-left a{
+    padding: 2px;
+    font-weight: bold;
+    white-space: nowrap;
+
+    margin: 10px;
+    color: #D9D9D9;
+}
+.card-left{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-right a{
+    
+    color: #D9D9D9;
+}
+.card-right{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: flex-end;
+
+}
+.menu-card{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+
+}
+.card-right #search_icon{
+    font-size: x-large;
+    height: 30px;
+}
+.card-right #bell_icon{
+    height: 20px;
+    font-size: large;
+}
+.card-right i{
+    width: 30px;
+   
+    margin: 10px;
+    color: white;
+}
+.card-right button{
+    box-shadow: none;
+    border: none;
+}
+.card-right .user{
+    border-radius: 10px;
+    width: 35px;
+    height: 40px;
+    
+}
+.card-left .logo-netflix{
+    width: 100px;
+    height: 65px;
+}
